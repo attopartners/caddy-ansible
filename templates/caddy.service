@@ -34,7 +34,7 @@ PrivateTmp=true
 ; Use a minimal /dev
 PrivateDevices=true
 ; Hide /home, /root, and /run/user. Nobody will steal your SSH-keys.
-ProtectHome=true
+# ProtectHome=true
 ; Make /usr, /boot, /etc and possibly some more folders read-only.
 ProtectSystem=full
 ; … except {{ caddy_certs_dir }}, because we want Letsencrypt-certificates there.
