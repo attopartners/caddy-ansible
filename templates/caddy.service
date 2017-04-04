@@ -9,7 +9,7 @@ After=network-online.target
 Wants=network-online.target systemd-networkd-wait-online.service
 
 [Service]
-Restart=on-failure
+# Restart=on-failure
 StartLimitInterval=86400
 StartLimitBurst=5
 
